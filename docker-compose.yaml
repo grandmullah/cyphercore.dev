@@ -20,3 +20,4 @@ services:
       - ONLY_SUBDOMAINS=true
       - DHLEVEL=4096
       - TZ=Europe/London
+      - VALIDATION=http
