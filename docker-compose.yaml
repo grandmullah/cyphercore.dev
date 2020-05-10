@@ -16,7 +16,6 @@ services:
       - PGID=${PGID}
       - EMAIL=collinsbiegon9@gmail.com
       - URL=cyphercore.dev
-      - SUBDOMAINS=www,biegon
       - ONLY_SUBDOMAINS=true
       - DHLEVEL=4096
       - TZ=Europe/London
