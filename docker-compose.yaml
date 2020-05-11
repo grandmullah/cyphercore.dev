@@ -23,7 +23,7 @@ services:
       - TZ=Europe/London
       - VALIDATION=http
   cyphercore:
-    image: grandmullah/cypherortfolio
+    image: grandmullah/cypherportfolio
     container_name: cyphercore
     ports: 
       - 3000:3000
