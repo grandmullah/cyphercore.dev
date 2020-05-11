@@ -26,7 +26,7 @@ const PortfolioLanding = () => {
     const PostList = BlogContent.slice(0 , 3);
     return (
         <div className="active-dark">
-            <Helmet pageTitle="Portfolio Landing" />
+            <Helmet pageTitle="cyphercore dev team " />
 
             <HeaderThree homeLink="/" logo="symbol-dark" color="color-black"/>
             {/* Start Slider Area   */}
@@ -62,7 +62,7 @@ const PortfolioLanding = () => {
             {/* End Slider Area   */} 
 
             {/* Start About Area */}
-            <div id="about" className="fix">
+            {/* <div id="about" className="fix">
                 <div className="about-area ptb--120  bg_color--1">
                     <div className="about-wrapper">
                         <div className="container">
@@ -88,11 +88,11 @@ const PortfolioLanding = () => {
                     </div>
                 </div>
             </div>
-            
+             */}
             {/* End About Area */}
 
             {/* Start Service Area  */}
-            <div id="service" className="fix">
+            {/* <div id="service" className="fix">
                 <div className="service-area creative-service-wrapper ptb--120 bg_color--5" >
                     <div className="container">
                         <div className="row">
@@ -110,11 +110,11 @@ const PortfolioLanding = () => {
                         </div>
                     </div>
                 </div>  
-            </div>
+            </div> */}
             {/* End Service Area  */} 
 
             {/* Start Portfolio Area */}
-            <div id="portfolio" className="fix">
+            {/* <div id="portfolio" className="fix">
                 <div className="portfolio-area ptb--120 bg_color--1">
                     <div className="portfolio-sacousel-inner">
                         <div className="container">
@@ -139,11 +139,11 @@ const PortfolioLanding = () => {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             {/* End Portfolio Area */}
 
             {/* Start Blog Area */}
-            <div id="blog" className="fix">
+            {/* <div id="blog" className="fix">
                 <div className="rn-blog-area ptb--120 bg_color--5 mb-dec--30">
                     <div className="container">
                         <div className="row align-items-end">
@@ -176,15 +176,15 @@ const PortfolioLanding = () => {
                         </div>    
                     </div>    
                 </div>
-            </div>
+            </div> */}
             {/* End Blog Area */}
 
             {/* Start COntact Area */}
-            <div id="contact" className="fix">
+            {/* <div id="contact" className="fix">
                 <div className="rn-contact-area ptb--120 bg_color--1">
                     <ContactThree contactImages="/assets/images/about/about-9.jpg" contactTitle="Hire Me." />
                 </div>
-            </div>
+            </div> */}
             {/* End COntact Area */}
 
             <FooterTwo />
